@@ -1350,7 +1350,7 @@ public:
             std::vector<NeighInfo> SwapNeigh;
             for (size_t j=0;j<Nodes[i].Neigh.size();j++)
             {
-                if (IndexNodes.count(Nodes[i].Neigh[j].Node>0))continue;
+                if (IndexNodes.count(Nodes[i].Neigh[j].Node)>0)continue;
                 SwapNeigh.push_back(Nodes[i].Neigh[j]);
             }
             if (SwapNeigh.size()==Nodes[i].Neigh.size())continue;
